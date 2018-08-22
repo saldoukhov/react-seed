@@ -1,0 +1,1 @@
+Minimal React app with code splitting, router and redux
