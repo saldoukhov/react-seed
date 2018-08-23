@@ -18,7 +18,7 @@ function visibilityFilter(state = SHOW_ALL, action) {
     }
 }
 
-function todos(state = [], action) {
+function todoList(state = [], action) {
     switch (action.type) {
         case ADD_TODO:
             return [
@@ -44,7 +44,7 @@ function todos(state = [], action) {
 
 const todoApp = combineReducers({
     visibilityFilter,
-    todos
+    todoList
 });
 
 export default todoApp
